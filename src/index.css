@@ -1,0 +1,90 @@
+body{
+  background-color: rgb(117, 107, 107);
+  color: white;
+}
+
+.N_B{
+  color:rgb(244, 24, 24);
+  font-weight: bold;
+}
+
+.todo-list{
+  text-align: center;
+  width: auto;
+  font-style: arial, sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+h2{
+  font-size: 4rem;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+
+input{
+  font-size: 1.6em;
+  padding: 5px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.add-button{
+  font-size:1.6em;
+  padding:5px;
+  background-color: rgb(50, 160, 50);
+  border-style: none;
+  border-radius: 5px;
+}
+
+.add-button:hover{
+  cursor: pointer;
+}
+
+ul{
+  /* border: 1px solid red; */
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 10px;
+  width: auto;
+  font-size: 1.7em;
+  background-color: rgb(71, 51, 51);
+  border-radius: 20px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3px;
+  padding: 3px;
+}
+
+.delete-button {
+  padding: 5px;
+  margin-right:6px;
+}
+
+.delete-button:hover{
+  cursor: pointer;
+}
+
+.move-buttons{
+  padding: 5px;
+  margin-right:6px;
+}
+
+.move-buttons:hover{
+  cursor: pointer;
+}
+
+.item span {
+  display: inline-block;
+  max-width: 300px; /* adjust as needed */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
